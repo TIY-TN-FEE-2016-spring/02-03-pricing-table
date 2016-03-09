@@ -262,6 +262,14 @@ button {
   text-align: left;
 }
 
+.author-notes {
+  position: absolute;
+  top: 100px;
+  right: 1278px;
+  background: red;
+  padding: 300px;
+}
+
 #bottom {
   clear: left;
   border: 0;
@@ -272,6 +280,13 @@ button {
   margin-left: -8px;
   margin-right: -8px;
   margin-bottom: -8px;
+}
+
+.something {
+  clear: both;
+  height: 20px;
+  width: 1280px;
+  overflow-x: hidden;
 }
 
 #bottom a {
