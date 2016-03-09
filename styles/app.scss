@@ -6,7 +6,27 @@
 @import 'box-sizing';
 
 body {
+  margin: 0;
   font-family: sans-serif;
+}
+
+.outer-container {
+  margin: 0 0.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  margin: 0 -10px;
+
+  &__col {
+    margin: 0 10px;
+  }
 }
 
 .top-nav {
@@ -46,10 +66,7 @@ body {
   margin-top: 40px;
   border: 2px #878787 solid;
   background: #519251;
-  margin-left: 120px;
-  margin-right: 20px;
   width: 328px;
-  float: left;
 }
 
 #plan-personal {
@@ -71,9 +88,7 @@ body {
   margin-top: 40px;
   border: 2px #878787 solid;
   background: #2C4985;
-  margin-right: 20px;
   width: 328px;
-  float: left;
 }
 
 #plan-business {
@@ -95,9 +110,7 @@ body {
   margin-top: 40px;
   border: 2px #878787 solid;
   background: black;
-  margin-right: 120px;
   width: 328px;
-  float: left;
 }
 
 #plan-enterprise {
