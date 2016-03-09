@@ -1,0 +1,15 @@
+.banner {
+  margin: 0 -8px;
+  padding: 8rem 0;
+  background: url('/tree.jpeg') center -5rem no-repeat;
+  background-size: cover;
+
+
+  &__text {
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  }
+}

@@ -10,57 +10,9 @@ body {
   font-family: sans-serif;
 }
 
-.outer-container {
-  margin: 0 0.5rem;
-}
-
-.container {
-  width: 100%;
-  max-width: 1024px;
-  margin: auto;
-}
-
-.row {
-  display: flex;
-  margin: 0 -10px;
-
-  &__col {
-    margin: 0 10px;
-  }
-}
-
-.top-nav {
-  margin-top: -8px;
-  margin-right: -8px;
-  margin-left: -8px;
-
-  padding: 5px;
-
-  background: #eee;
-
-  &__item {
-    display: inline-block;
-    padding: 5px;
-    color: #888888;
-    text-decoration: none;
-  }
-}
-
-.banner {
-  margin: 0 -8px;
-  padding: 8rem 0;
-  background: url('/tree.jpeg') center -5rem no-repeat;
-  background-size: cover;
-
-
-  &__text {
-    margin: 0;
-    color: white;
-    font-size: 48px;
-    text-align: center;
-    text-shadow: 2px 2px black;
-  }
-}
+@import 'grid';
+@import 'top-nav';
+@import 'banner';
 
 #pricing-green {
   margin-top: 40px;
