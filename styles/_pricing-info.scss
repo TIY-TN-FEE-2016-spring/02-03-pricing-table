@@ -1,0 +1,23 @@
+.pricing-info {
+  width: 328px;
+  margin-top: 40px;
+
+  border: 2px #878787 solid;
+
+  background: #519251;
+
+  &__text {
+    border: 0;
+    color: white;
+    text-align: center;
+  }
+
+  &__money {
+    margin: 0;
+    border: 0;
+    color: white;
+    font-size: 4rem;
+    line-height: 0.8em;
+    text-align: center;
+  }
+}

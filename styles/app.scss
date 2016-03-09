@@ -13,28 +13,7 @@ body {
 @import 'grid';
 @import 'top-nav';
 @import 'banner';
-
-#pricing-green {
-  margin-top: 40px;
-  border: 2px #878787 solid;
-  background: #519251;
-  width: 328px;
-}
-
-#plan-personal {
-  border: 0;
-  color: white;
-  text-align: center;
-}
-
-#price-personal {
-  border: 0;
-  color: white;
-  text-align: center;
-  font-size: 80px;
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
+@import 'pricing-info';
 
 #pricing-blue {
   margin-top: 40px;
@@ -43,41 +22,11 @@ body {
   width: 328px;
 }
 
-#plan-business {
-  border: 0;
-  color: white;
-  text-align: center;
-}
-
-#price-business {
-  border: 0;
-  color: white;
-  text-align: center;
-  font-size: 80px;
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-
 #pricing-black {
   margin-top: 40px;
   border: 2px #878787 solid;
   background: black;
   width: 328px;
-}
-
-#plan-enterprise {
-  border: 0;
-  color: white;
-  text-align: center;
-}
-
-#price-enterprise {
-  border: 0;
-  color: white;
-  text-align: center;
-  font-size: 80px;
-  margin-top: -10px;
-  margin-bottom: -10px;
 }
 
 #personal-features {
