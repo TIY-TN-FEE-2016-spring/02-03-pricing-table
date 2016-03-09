@@ -4,3 +4,280 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+
+body {
+  font-family: sans-serif;
+}
+
+.top {
+  margin-top: -8px;
+  margin-left: -8px;
+
+  height: 36px;
+}
+
+#site-home-big {
+  position: relative;
+  top: 8px;
+  padding: 5px;
+  color: #888888;
+  text-decoration: none;
+}
+
+#site-home {
+  position: relative;
+  top: 8px;
+  margin: 5px;
+  color: #888888;
+  text-decoration: none;
+}
+
+#site-pricing {
+  position: relative;
+  bottom: -8px;
+  margin: 5px;
+  color: #888888;
+  text-decoration: none;
+}
+
+#site-contact {
+  position: relative;
+  top: 8px;
+  margin: 5px;
+  color: #888888;
+  text-decoration: none;
+}
+
+#big-image {
+  margin-left: -8px;
+  width: 1280px;
+  height: 400px
+}
+
+#big-text {
+  border: 0 !important;
+  position: absolute;
+left: 411px;
+top: 140px;
+  color: white;
+  font-size: 48px;
+      text-align: center;
+text-shadow: 2px 2px black;
+}
+
+#pricing-green {
+  margin-top: 40px;
+  border: 2px #878787 solid;
+  background: #519251;
+  margin-left: 120px;
+  margin-right: 20px;
+  width: 328px;
+  float: left;
+}
+
+#plan-personal {
+  border: 0;
+  color: white;
+  text-align: center;
+}
+
+#price-personal {
+  border: 0;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#pricing-blue {
+  margin-top: 40px;
+  border: 2px #878787 solid;
+  background: #2C4985;
+  margin-right: 20px;
+  width: 328px;
+  float: left;
+}
+
+#plan-business {
+  border: 0;
+  color: white;
+  text-align: center;
+}
+
+#price-business {
+  border: 0;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#pricing-black {
+  margin-top: 40px;
+  border: 2px #878787 solid;
+  background: black;
+  margin-right: 120px;
+  width: 328px;
+  float: left;
+}
+
+#plan-enterprise {
+  border: 0;
+  color: white;
+  text-align: center;
+}
+
+#price-enterprise {
+  border: 0;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#personal-features {
+  background: #F7F7F7;
+  margin-left: 120px;
+  margin-right: 20px;
+  width: 328px;
+  float: left;
+}
+
+#business-features {
+  background: #F7F7F7;
+  margin-right: 20px;
+  width: 328px;
+  float: left;
+}
+
+#enterprise-features {
+  background: #F7F7F7;
+  margin-right: 120px;
+  width: 328px;
+  float: left;
+}
+
+#personal-features p {
+  margin: 0;
+  padding: 5px;
+}
+
+#business-features p {
+  margin: 0;
+  padding: 5px;
+}
+
+#enterprise-features p {
+  margin: 0;
+  padding: 5px;
+}
+
+p {
+  border-left: 2px #878787 solid;
+  border-right: 2px #878787 solid;
+  border-bottom: 2px #878787 solid;
+
+  text-align: center;
+}
+
+.per-month {
+  border: 0;
+  color: white;
+  text-align: center;
+}
+
+#personal-choose {
+  margin-bottom: 40px;
+  background: #F7F7F7;
+  margin-left: 120px;
+  margin-right: 20px;
+  width: 328px;
+  float: left;
+
+  border-left: 2px #878787 solid;
+  border-right: 2px #878787 solid;
+  border-bottom: 2px #878787 solid;
+  text-align: center;
+}
+
+#business-choose {
+  margin-bottom: 40px;
+  background: #F7F7F7;
+  margin-right: 20px;
+  width: 328px;
+  float: left;
+
+  border-left: 2px #878787 solid;
+  border-right: 2px #878787 solid;
+  border-bottom: 2px #878787 solid;
+  text-align: center;
+}
+
+#enterprise-choose {
+  margin-bottom: 40px;
+  background: #F7F7F7;
+  margin-right: 120px;
+  width: 328px;
+  float: left;
+
+  border-left: 2px #878787 solid;
+  border-right: 2px #878787 solid;
+  border-bottom: 2px #878787 solid;
+  text-align: center;
+}
+
+button {
+  margin: 9px;
+}
+
+.row {
+  clear: left;
+}
+
+.half {
+  float: left;
+  margin-right: 20px;
+  width: 502px;
+}
+
+.half:first-child {
+  margin-left: 120px;
+}
+
+.half:last-child {
+  margin-right: 120px;
+}
+
+.kinda-big-text {
+  font-size: 20px;
+  border: 0;
+  text-align: left;
+}
+
+.little-text {
+  border: 0;
+  text-align: left;
+}
+
+#bottom {
+  clear: left;
+  border: 0;
+  background: black;
+  color: #888888;
+  padding: 8px;
+  margin-top: 20px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+}
+
+#bottom a {
+  color: white;
+}
+
+body {
+  margin-bottom: 0;
+}
