@@ -6,16 +6,19 @@
   <link rel="stylesheet" href="/app.css">
 </head>
 <body>
-  <div class="top">
-    <a href="/" id="site-home-big">YOUR LOGO</a>
-    <a href="/" id="site-home">Home</a>
-    <a href="/" id="site-pricing">Pricing</a>
-    <a href="/" id="site-contact">Contact</a>
-  </div>
+  <nav class="top-nav">
+    <a href="/" class="top-nav__item top-nav__item--brand" id="site-home-big">YOUR LOGO</a>
+    <a href="/" class="top-nav__item" id="site-home">Home</a>
+    <a href="/" class="top-nav__item" id="site-pricing">Pricing</a>
+    <a href="/" class="top-nav__item" id="site-contact">Contact</a>
+  </nav>
 
-  <img src="http://localhost:4200/tree.jpeg" alt="Something" id="big-image">
+  <header class="banner">
+    <h2 class="banner__text" id="big-text">Simple Pricing.</h2>
+    <h2 class="banner__text">Try before you buy.</h2>
+  </header>
+  <!-- <img src="http://localhost:4200/tree.jpeg" alt="Something" id="big-image"> -->
 
-  <p id="big-text">Simple Pricing. <br> Try before you buy.</p>
 
   <div id="pricing-green">
     <p id="plan-personal">PERSONAL</p>

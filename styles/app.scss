@@ -9,60 +9,43 @@ body {
   font-family: sans-serif;
 }
 
-.top {
+.top-nav {
   margin-top: -8px;
+  margin-right: -8px;
   margin-left: -8px;
 
-  height: 36px;
-}
-
-#site-home-big {
-  position: relative;
-  top: 8px;
   padding: 5px;
-  color: #888888;
-  text-decoration: none;
+
+  background: #eee;
+
+  &__item {
+    display: inline-block;
+    padding: 5px;
+    color: #888888;
+    text-decoration: none;
+  }
 }
 
-#site-home {
-  position: relative;
-  top: 8px;
-  margin: 5px;
-  color: #888888;
-  text-decoration: none;
-}
+.banner {
+  margin: 0 -8px;
+  padding: 8rem 0;
+  background: url('/tree.jpeg') center -5rem no-repeat;
+  background-size: cover;
 
-#site-pricing {
-  position: relative;
-  bottom: -8px;
-  margin: 5px;
-  color: #888888;
-  text-decoration: none;
-}
 
-#site-contact {
-  position: relative;
-  top: 8px;
-  margin: 5px;
-  color: #888888;
-  text-decoration: none;
+  &__text {
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  }
 }
 
 #big-image {
   margin-left: -8px;
   width: 1280px;
   height: 400px
-}
-
-#big-text {
-  border: 0 !important;
-  position: absolute;
-left: 411px;
-top: 140px;
-  color: white;
-  font-size: 48px;
-      text-align: center;
-text-shadow: 2px 2px black;
 }
 
 #pricing-green {
