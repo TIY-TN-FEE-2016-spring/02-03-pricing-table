@@ -15,12 +15,16 @@
   margin: 0 -10px;
 
   &__col {
-    flex-grow: 1;
+    // flex-grow: 1;
 
     margin: 0 10px;
 
-    &--1of2 {
-      width: calc(50% - 20px);
+    @for $right from 1 through 12 {
+      @for $left from 1 through $right {
+        &--#{$left}of#{$right} {
+          width: calc(100% * #{$left} / #{$right} - 20px);
+        }
+      }
     }
   }
 }
