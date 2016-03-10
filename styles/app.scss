@@ -20,58 +20,13 @@ ul {
 @import 'banner';
 @import 'pricing-info';
 @import 'pricing-features';
+@import 'pricing-choose';
 
 p {
   border-left: 2px #878787 solid;
   border-right: 2px #878787 solid;
   border-bottom: 2px #878787 solid;
 
-  text-align: center;
-}
-
-.per-month {
-  border: 0;
-  color: white;
-  text-align: center;
-}
-
-#personal-choose {
-  margin-bottom: 40px;
-  background: #F7F7F7;
-  margin-left: 120px;
-  margin-right: 20px;
-  width: 328px;
-  float: left;
-
-  border-left: 2px #878787 solid;
-  border-right: 2px #878787 solid;
-  border-bottom: 2px #878787 solid;
-  text-align: center;
-}
-
-#business-choose {
-  margin-bottom: 40px;
-  background: #F7F7F7;
-  margin-right: 20px;
-  width: 328px;
-  float: left;
-
-  border-left: 2px #878787 solid;
-  border-right: 2px #878787 solid;
-  border-bottom: 2px #878787 solid;
-  text-align: center;
-}
-
-#enterprise-choose {
-  margin-bottom: 40px;
-  background: #F7F7F7;
-  margin-right: 120px;
-  width: 328px;
-  float: left;
-
-  border-left: 2px #878787 solid;
-  border-right: 2px #878787 solid;
-  border-bottom: 2px #878787 solid;
   text-align: center;
 }
 
