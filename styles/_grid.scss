@@ -1,3 +1,13 @@
+@mixin grid($cols) {
+  @for $right from 1 through $cols {
+    @for $left from 1 through $right {
+      &--#{$left}of#{$right} {
+        flex-basis: calc(100% * #{$left} / #{$right} - 20px);
+      }
+    }
+  }
+}
+
 .outer-container {
   margin: 0 0.5rem;
 }
@@ -15,16 +25,10 @@
   margin: 0 -10px;
 
   &__col {
-    // flex-grow: 1;
+    @include yoga-column(1, 8, 10px);
 
-    margin: 0 10px;
+    // margin: 0 10px;
 
-    @for $right from 1 through 12 {
-      @for $left from 1 through $right {
-        &--#{$left}of#{$right} {
-          width: calc(100% * #{$left} / #{$right} - 20px);
-        }
-      }
-    }
+    @include grid(36);
   }
 }
