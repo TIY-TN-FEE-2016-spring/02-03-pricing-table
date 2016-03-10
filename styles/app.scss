@@ -10,47 +10,16 @@ body {
   font-family: sans-serif;
 }
 
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
 @import 'grid';
 @import 'top-nav';
 @import 'banner';
 @import 'pricing-info';
-
-#personal-features {
-  background: #F7F7F7;
-  margin-left: 120px;
-  margin-right: 20px;
-  width: 328px;
-  float: left;
-}
-
-#business-features {
-  background: #F7F7F7;
-  margin-right: 20px;
-  width: 328px;
-  float: left;
-}
-
-#enterprise-features {
-  background: #F7F7F7;
-  margin-right: 120px;
-  width: 328px;
-  float: left;
-}
-
-#personal-features p {
-  margin: 0;
-  padding: 5px;
-}
-
-#business-features p {
-  margin: 0;
-  padding: 5px;
-}
-
-#enterprise-features p {
-  margin: 0;
-  padding: 5px;
-}
+@import 'pricing-features';
 
 p {
   border-left: 2px #878787 solid;
