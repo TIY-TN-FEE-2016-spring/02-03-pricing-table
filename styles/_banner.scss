@@ -1,4 +1,6 @@
 .banner {
+  @extend %nashville;
+
   margin: 0 -8px;
   padding: 8rem 0;
   background: url('/tree.jpeg') center -5rem no-repeat;
